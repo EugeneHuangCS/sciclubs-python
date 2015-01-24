@@ -7,6 +7,12 @@ libraries:
 - name: tornado
   version: "3.1.1"
 
+handle:
+- compress:  if ( out_header["Content-type"] ~ "text/css" ) compress
+- compress:  if ( out_header["Content-type"] ~ "text/javascript" ) compress
+- compress:  if ( out_header["Content-type"] ~ "text/html" ) compress
+- compress:  if ( out_header["Content-type"] ~ "text/plain" ) compress
+
 handlers:
 - url: /static/
   static_path: static
