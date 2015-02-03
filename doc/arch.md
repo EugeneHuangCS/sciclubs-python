@@ -16,4 +16,7 @@ _2015-02-03_
 
 数据库表设计
 ---
+![database-struct](https://gitcafe.com/PillowSky/scicompass/raw/master/doc/img/database-struct.png "database-struct")
 
+[数据库关系图](https://gitcafe.com/PillowSky/scicompass/raw/master/doc/img/database-struct.png)
+[SQL文件](https://gitcafe.com/PillowSky/scicompass/raw/master/doc/database-struct.sql)
