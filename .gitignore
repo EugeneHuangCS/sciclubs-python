@@ -36,5 +36,8 @@ nosetests.xml
 .project
 .pydevproject
 
-# Swap files
-*~
+# Files that are compile output
+*.html
+*.css
+*.js
+
